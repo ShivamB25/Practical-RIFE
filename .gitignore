@@ -12,3 +12,6 @@ test/
 *.npz
 
 *.zip
+rclone.conf
+95.json
+ssh_10549850.json

@@ -1,5 +1,5 @@
 # Use an official NVIDIA CUDA runtime as the base image
-FROM nvidia/cuda:12.4.1-devel-ubuntu22.04
+FROM nvidia/cuda:12.4.0-devel-ubuntu22.04
 
 # Set the working directory in the container
 WORKDIR /app
@@ -7,7 +7,9 @@ WORKDIR /app
 # Install Python and necessary dependencies
 RUN apt-get update && apt-get install -y \
     python3 \
-    python3-pip
+    python3-pip 
+
+# RUN curl https://rclone.org/install.sh | sudo bash
 
 # Install common Python development tools
 COPY requirements.txt ./
