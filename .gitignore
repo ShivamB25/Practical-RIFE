@@ -2,9 +2,7 @@
 *.py~
 *.py#
 
-*.pkl
 output/*
-train_log/*
 *.mp4
 
 test/
@@ -12,3 +10,5 @@ test/
 *.npz
 
 *.zip
+\[Lia] One Piece - 0671-682 \[1080p].zip.aria2
+train_log/.DS_Store
